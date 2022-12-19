@@ -34,7 +34,7 @@ $ git clone https://github.com/vohuydan/DHT11-RPi4.git
 Once downloaded run the following code to compile and execute the project:
 
 ```console
-$ g++ -c DHT11.cpp -l wiringPi
+$ g++ -c DHT11.cpp - o DHT11.o -l wiringPi
 $ g++ main.cpp DHT11.o -l wiringPi -o DHT11Test
 $ ./DHT11Test
 ```
